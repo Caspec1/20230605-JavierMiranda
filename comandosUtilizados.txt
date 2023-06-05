@@ -1,0 +1,24 @@
+ 5118  mkdir 20230605-JavierMiranda
+ 5119  cd 20230605-JavierMiranda/
+ 5120  git init
+ 5121  touch comandos.txt main.js index.html
+ 5122  git add .
+ 5123  git commit -m "commit 01 de javierMiranda"
+ 5124  git branch -M main\n
+ 5125  git remote add origin https://github.com/Caspec1/20230605-JavierMiranda.git
+ 5126  git push -u origin main
+ 5127  git branch -M feature01
+ 5128  mkdir Terminal Hardware
+ 5129  touch Terminal/resumen.txt Hardware/resumen.txt
+ 5130  git add .
+ 5131  git commit -m "commit 02 de javierMiranda"
+ 5132  git push feature01
+ 5133  git push origin feature01
+ 5135  git branch -M feature02
+ 5136  nano Terminal/resumen.txt
+ 5137  nano Hardware/resumen.txt
+ 5138  git add .
+ 5139  git commit -m "commit 03 de javierMiranda"
+ 5140  git push origin feature02
+ 5141  git switch main
+ 5142  mv comandos.txt comandosUtilizados.txt
